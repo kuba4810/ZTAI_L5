@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class DataService{
 
-     url = "http://localhost:3000/api"
+     url = "http://localhost:8080/api"
 
       httpOptions = {
         headers: new HttpHeaders({
