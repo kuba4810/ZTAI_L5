@@ -1,31 +1,31 @@
-import {HttpClient,HttpHeaders} from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class DataService{
+export class DataService {
 
-     url = "http://localhost:8080/api"
+    url = "http://localhost:8080/api"
 
-      httpOptions = {
+    httpOptions = {
         headers: new HttpHeaders({
-          'Content-Type':  'application/json',
-          'Authorization': 'my-auth-token'
+            'Content-Type': 'application/json',
+            'Authorization': 'my-auth-token'
         })
-      };
-    constructor(private http: HttpClient){
-        
+    };
+    constructor(private http: HttpClient) {
+
     }
 
-    getAll(){
+    getAll() {
         console.log("Działa");
-        return this.http.get(this.url + '/posts');     
+        return this.http.get(this.url + '/posts');
     }
 
-    getPost(postId){
+    getPost(postId) {
         return this.http.get(`${this.url}/posts/${postId}`)
     }
 
-    createPost(data){
-        return this.http.post(`http://localhost:3000/api/post`,{data: JSON.stringify(data)},{headers: this.httpOptions.headers});
+    createPost(data) {
+        return this.http.post(`${this.url}/posts`, { data: JSON.stringify(data) });
     }
 }
