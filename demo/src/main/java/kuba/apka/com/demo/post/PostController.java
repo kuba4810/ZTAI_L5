@@ -1,6 +1,6 @@
 package kuba.apka.com.demo.post;
 
-import java.util.List;
+/* import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -28,4 +28,4 @@ public class PostController{
     public Post get(@PathVariable int id){
         return postService.get(id);
     }
-}
+} */

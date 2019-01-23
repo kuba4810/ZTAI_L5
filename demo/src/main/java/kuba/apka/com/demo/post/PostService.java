@@ -15,35 +15,35 @@ public class PostService{
 
     static {
         posts.add(new Post(++idCounter,
-         "title1",
+         "Title 1",
          "https://www.w3schools.com/w3css/img_lights.jpg",
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"+
           "sed do eiusmod tempor incididunt ut labore et dolore magna" +
           "aliqua. Ut enim ad minim veniam, quis nostrud exercitation" +
           "ullamco laboris nisi ut aliquip ex ea commodo consequat" ));
           posts.add(new Post(++idCounter,
-          "title1",
+          "Title 2",
           "https://www.w3schools.com/w3css/img_lights.jpg",
            "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"+
            "sed do eiusmod tempor incididunt ut labore et dolore magna" +
            "aliqua. Ut enim ad minim veniam, quis nostrud exercitation" +
            "ullamco laboris nisi ut aliquip ex ea commodo consequat" ));
            posts.add(new Post(++idCounter,
-           "title1",
+           "Title 3",
            "https://www.w3schools.com/w3css/img_lights.jpg",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"+
             "sed do eiusmod tempor incididunt ut labore et dolore magna" +
             "aliqua. Ut enim ad minim veniam, quis nostrud exercitation" +
             "ullamco laboris nisi ut aliquip ex ea commodo consequat" ));
             posts.add(new Post(++idCounter,
-            "title1",
+            "Title 4",
             "https://www.w3schools.com/w3css/img_lights.jpg",
              "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"+
              "sed do eiusmod tempor incididunt ut labore et dolore magna" +
              "aliqua. Ut enim ad minim veniam, quis nostrud exercitation" +
              "ullamco laboris nisi ut aliquip ex ea commodo consequat" ));
              posts.add(new Post(++idCounter,
-             "title1",
+             "Title 5",
              "https://www.w3schools.com/w3css/img_lights.jpg",
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"+
               "sed do eiusmod tempor incididunt ut labore et dolore magna" +

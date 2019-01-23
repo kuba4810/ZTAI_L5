@@ -1,11 +1,24 @@
 package kuba.apka.com.demo.post;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Post {
+    @Id
+    @GeneratedValue
+    @Column
     private long id;
+    @Column
     private String title;
+    @Column
     private String url;
+    @Column
     private String content;
 
+    public Post(){}
     public Post(long id, String title, String url, String content){
         this.id = id;
         this.title = title;
